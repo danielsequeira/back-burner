@@ -21,54 +21,54 @@ public static Object buildObject(final JSONObject jsonObject) {
 //An Object with a List of the same Object as a field
 public class Object {
  
-     private String id;
-     private String name;
-     private List<Object> options;
+    private String id;
+    private String name;
+    private List<Object> options;
  
-     public Object() {
-         super();
-         this.id = "";
-         this.name = "";
-         this.options = new ArrayList<>();
-     }
+    public Object() {
+        super();
+        this.id = "";
+        this.name = "";
+        this.options = new ArrayList<>();
+    }
  
-     public Object(final String id, final String name) {
-         this.id = id;
-         this.name = name;
-         this.options = new ArrayList<>();
-     }
+    public Object(final String id, final String name) {
+        this.id = id;
+        this.name = name;
+        this.options = new ArrayList<>();
+    }
  
-     public Object(final String id, final String name, final List<Object> options) {
-         this.id = id;
-         this.name = name;
-         this.options = options;
-     }
+    public Object(final String id, final String name, final List<Object> options) {
+        this.id = id;
+        this.name = name;
+        this.options = options;
+    }
  
-     public String getId() {
-         return id;
-     }
+    public String getId() {
+        return id;
+    }
  
-     public void setId(final String id) {
-         this.id = id;
-     }
+    public void setId(final String id) {
+        this.id = id;
+     
  
-     public String getName() {
-         return name;
-     }
+    public String getName() {
+        return name;
+    }
  
-     public void setName(final String name) {
-         this.name = name;
-     }
+    public void setName(final String name) {
+        this.name = name;
+    }
  
-     public List<Object> getOptions() {
-         return options;
-     }
+    public List<Object> getOptions() {
+        return options;
+    }
  
-     public void setOptions(final List<Object> options) {
-         this.options = options;
-     }
+    public void setOptions(final List<Object> options) {
+        this.options = options;
+    }
  
-     public void addOption(final Object option) {
-         this.options.add(option);
-     }
-
+    public void addOption(final Object option) {
+        this.options.add(option);
+    }
+}
